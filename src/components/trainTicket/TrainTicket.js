@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM, { render } from "react-dom";
 import { AFrameRenderer, Marker } from "react-web-ar";
-import journeySummaryImage from "./journey-summary.png";
+import journeySummaryImage from "../earth/earth.png";
 
 class TrainTicket extends Component {
   render() {
