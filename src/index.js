@@ -1,11 +1,10 @@
-import 'babel-polyfill';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import "babel-polyfill";
+import React from "react";
+import ReactDOM from "react-dom";
 
-import App from './components/App';
+// import App from "./components/App";
+import Earth from "./components/trainTicket/TrainTicket";
 
-const app = (
-  <App />
-);
+const app = <Earth />;
 
-ReactDOM.render(app, document.getElementById('root'));
+ReactDOM.render(app, document.getElementById("root"));

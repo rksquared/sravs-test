@@ -1,15 +1,14 @@
-import React from 'react';
-// import React, {Component} from 'react';
-import ReactDOM, { render } from 'react-dom';
+import React, { Component } from "react";
+import ReactDOM, { render } from "react-dom";
 
 // ifconfig -> en0 -> inet -> https/x:3000
 
 // import Hiro from './hiro/Hiro';
 // import Torus from './torus/Torus';
 // import RollingScopes from './rollingScopes/RollingScopes';
-// import Earth from './earth/Earth';
-// import TrainTicket from './trainTicket/TrainTicket';
-import Railcard from './railcard/Railcard';
+// import Earth from "./earth/Earth";
+import TrainTicket from "./trainTicket/TrainTicket";
+// import Railcard from "./railcard/Railcard";
 
 class App extends Component {
   render() {
@@ -18,12 +17,12 @@ class App extends Component {
       // <Torus />
       // <Earth />
       // <RollingScopes />
-      // <TrainTicket />
-      <Railcard />
+      <TrainTicket />
+      // <Railcard />
     );
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));
 
 export default App;
