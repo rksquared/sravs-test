@@ -13,7 +13,7 @@ class TrainTicket extends Component {
             type: "pattern",
             url:
               // "https://raw.githubusercontent.com/lbelfield/augmented-reality/master/src/components/trainTicket/train-ticket.patt"
-              "pattern-sravs.patt"
+              "https://raw.githubusercontent.com/rksquared/sravs-test/master/src/components/trainTicket/pattern-sravs.patt"
           }}
         >
           <a-assets-item
